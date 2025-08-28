@@ -1,0 +1,28 @@
+# VibeVoice Server API Requirements
+# ================================
+
+# Web framework
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Audio processing
+soundfile>=0.12.1
+librosa>=0.10.1
+numpy>=1.24.0
+
+# HTTP requests (for testing)
+requests>=2.31.0
+
+# Data validation
+pydantic>=2.4.0
+
+# Additional dependencies that may be needed
+# (These might already be installed with VibeVoice)
+torch>=2.0.0
+transformers>=4.30.0
+
+# CORS support
+fastapi[all]>=0.104.0
